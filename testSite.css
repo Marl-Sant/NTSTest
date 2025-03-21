@@ -1,0 +1,96 @@
+body{
+    background-color: #282424;
+    color: white;
+    font-family:sans-serif;
+    margin: 4em 15em;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    margin: 0.2em 0;
+}
+
+.truck-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.truck-card{
+    padding: 1em .7em;
+    border-radius: 5px;
+    box-shadow: -3px 3px gray;
+}
+
+.subtitle{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.limits{
+    color: gold;
+    font-weight: 600;
+}
+
+.details{
+    font-weight: lighter;
+}
+
+#double-drop{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://shipshetrailers.com/wp-content/uploads/2024/07/IMG_4991.jpg)
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#step-deck{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://www.diamondc.com/wp-content/uploads/2024/04/SDX_212_2024_Banner.jpg)
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#gooseneck{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://www.shipmoto.com/hubfs/iStock-543181168-jpg.jpeg)
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#flatbed{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://lh5.googleusercontent.com/proxy/7aT01_UhQ8eQF3LfrkKw5Ktbot8JQK4CPYlJRCgqgBRV3LY5vI4rr5g1nS5MYsLW6pDeOnugk1-oUf9u4KSKzdmcVveIeErLWuH0oyOisvC5VwZo)
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#learn-more{
+    background-color: gold;
+    border-radius: 100px;
+    padding: .5em 1.5em;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
